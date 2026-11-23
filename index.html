@@ -197,7 +197,7 @@ $("#lockform").addEventListener("submit",async e=>{e.preventDefault();$("#err").
  finally{$("#unlock").disabled=false;$("#unlock").textContent="Ouvrir l'agenda"}});
 $("#lockbtn").addEventListener("click",()=>{LS.del("agenda.key");location.reload()});
 // ---------- export CSV (format d'import Google Agenda ; s'ouvre aussi dans Excel / Numbers)
-const AGENDA_URL="https://antoinechry.github.io/agenda-miguel/";
+const AGENDA_URL="https://beyondthetrack.github.io/agenda-miguel/";
 function exportCSV(){
  const q=v=>{const s=String(v??"");return /[",\n;]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s};
  const us=s=>{const [y,m,d]=s.split("-");return `${m}/${d}/${y}`};

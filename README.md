@@ -1,6 +1,6 @@
 # Agenda des publications
 
-Agenda privé de toutes les publications réseaux sociaux des projets d'Antoine (Beyond The Track, Coach Miguel, Plan My Ride, UltraRide…), consultable partout sur `https://antoinechry.github.io/agenda-miguel/`.
+Agenda privé de toutes les publications réseaux sociaux des projets d'Antoine (Beyond The Track, Coach Miguel, Plan My Ride, UltraRide…), consultable partout sur `https://beyondthetrack.github.io/agenda-miguel/`.
 
 **Tout le contenu est chiffré** (AES-256-GCM, clé dérivée du mot de passe par PBKDF2-SHA256, 310 000 itérations). Le dépôt est public, mais `data.enc` et les fichiers de `media/` sont illisibles sans le mot de passe. Le mot de passe n'est jamais stocké dans le dépôt.
 
